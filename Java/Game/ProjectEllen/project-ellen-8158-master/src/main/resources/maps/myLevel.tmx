@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="70" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="32">
+ <tileset firstgid="1" name="tileset01" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset02" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <layer id="1" name="background" width="70" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="70" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmUsOwyAMBdP7H6OHaI9XdZFN+kpI+uxgOiOximxg+CosCwBk8rh5ymw4+oSXuByjgRfNv3tx76+ufFfv75XHdAUvGrxoKni5wjNe8uqM8BJ1zlQ+j9757h3FXacbvOTknMnLKHfPs7FV5kt2bJaXnnXwbS3gxd9GvHhj8eKv80hOvHAeZeXEiz8fXryxM3hpfceLty148cZl5uzxEvnfbluejfJLP9xEzJcz4EWDFw1eNHjR4EWDF83em0TEe8CRu8i2LfAJXjSZXiqNAV40eNHs7cvuuiqBF80I9wWAFi8klR/9
+  </data>
+ </layer>
+ <objectgroup id="3" name="actors">
+  <object id="14" name="Laser" x="640" y="240" width="16" height="48"/>
+  <object id="3" name="Door" x="368" y="127.667" width="32" height="16"/>
+  <object id="4" name="Health" x="224" y="96" width="16" height="16"/>
+  <object id="5" name="Ammo" x="144" y="224" width="16" height="16"/>
+  <object id="6" name="Egg" x="96" y="256" width="32" height="32"/>
+  <object id="8" name="Mine" x="464" y="176" width="16" height="16"/>
+  <object id="9" name="Mine" x="784" y="160" width="16" height="16"/>
+  <object id="10" name="Mine" x="784" y="192" width="16" height="16"/>
+  <object id="11" name="Ammo" x="832" y="144" width="16" height="16"/>
+  <object id="12" name="Ammo" x="816" y="192" width="16" height="16"/>
+  <object id="13" name="Alien" x="784" y="272" width="32" height="32"/>
+  <object id="15" name="Electr" x="768" y="528" width="48" height="16"/>
+  <object id="16" name="Health" x="688" y="544" width="16" height="16"/>
+  <object id="18" name="Egg" x="576" y="480" width="32" height="32"/>
+  <object id="19" name="Mine" x="464" y="352" width="16" height="16"/>
+  <object id="20" name="Spawn" x="480" y="592" width="32" height="32"/>
+  <object id="21" name="Egg" x="160" y="560" width="32" height="32"/>
+  <object id="22" name="Alien" x="288.5" y="513.5" width="31.5" height="30.5"/>
+  <object id="23" name="Egg" x="96" y="432" width="32" height="32"/>
+  <object id="24" name="Alien" x="352" y="400" width="32" height="32"/>
+  <object id="25" name="Alien" x="192" y="448" width="32" height="32"/>
+  <object id="26" name="Egg" x="304" y="608" width="32" height="32"/>
+  <object id="27" name="Alien" x="672" y="368" width="32" height="32"/>
+  <object id="29" name="ellen" x="256" y="80" width="32" height="32"/>
+  <object id="28" name="SuperAlien" x="720" y="576" width="80" height="128"/>
+  <object id="30" name="key" x="112" y="320" width="16" height="16"/>
+  <object id="31" name="LockedDoor" x="1072" y="640" width="16" height="32"/>
+  <object id="7" name="Generator" x="96" y="192" width="32" height="48"/>
+ </objectgroup>
+</map>
